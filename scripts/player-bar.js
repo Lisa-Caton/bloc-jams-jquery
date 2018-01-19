@@ -5,8 +5,9 @@
     });
 
     $('button#next').on('click', function() {
-      if (player.playstate !== 'playing') {return;}
-      const currentSongIndex = album.songs.indexOf(player.currentlyPlaying;);
+      if (player.playState !== 'playing') {return;}
+
+      const currentSongIndex = album.songs.indexOf(player.currentlyPlaying);
       const nextSongIndex = currentSongIndex + 1;
       if (nextSongIndex >= album.songs.length){return;}
 
