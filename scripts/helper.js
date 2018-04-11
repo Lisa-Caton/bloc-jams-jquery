@@ -1,7 +1,5 @@
 class Helper {
-  playPauseAndUpdate(song){
-    player.playPause(song);
-  }
+  playPauseAndUpdate(song => (song))
+
 
 }//end class Helper
-const helper = new Helper();
